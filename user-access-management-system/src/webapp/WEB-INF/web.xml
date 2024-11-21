@@ -1,0 +1,12 @@
+<web-app>
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>org.example.useraccess.servlets.SignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/SignUpServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add mappings for other servlets -->
+</web-app>

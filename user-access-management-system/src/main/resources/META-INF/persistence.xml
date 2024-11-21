@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+<persistence-unit name="UserAccessPU">
+    <class>org.example.useraccess.entity.User</class>
+    <class>org.example.useraccess.entity.Software</class>
+    <class>org.example.useraccess.entity.Request</class>
+    <properties>
+        <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/useraccessdb"/>
+        <property name="hibernate.connection.username" value="postgres"/>
+        <property name="hibernate.connection.password" value="yourpassword"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+        <property name="hibernate.hbm2ddl.auto" value="update"/>
+        <property name="hibernate.show_sql" value="true"/>
+        <property name="hibernate.format_sql" value="true"/>
+    </properties>
+</persistence-unit>
+</persistence>

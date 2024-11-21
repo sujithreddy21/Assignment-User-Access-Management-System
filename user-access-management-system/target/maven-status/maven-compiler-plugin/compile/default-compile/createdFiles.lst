@@ -1,0 +1,10 @@
+org\example\useraccess\servlets\ApprovalServlet.class
+org\example\useraccess\entity\Software.class
+org\example\useraccess\servlets\LoginServlet.class
+org\example\useraccess\servlets\SignUpServlet.class
+org\example\Main.class
+org\example\useraccess\servlets\RequestServlet.class
+org\example\useraccess\servlets\SoftwareServlet.class
+org\example\useraccess\entity\User.class
+org\example\useraccess\utils\DatabaseUtils.class
+org\example\useraccess\entity\Request.class
